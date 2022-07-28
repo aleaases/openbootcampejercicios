@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal {
+    width: 100vw;
+}
+
+.galeria {
+    display: flexbox;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-size: contain;
+}
+.imagen-galeria {
+    width: 300px;
+}
+
