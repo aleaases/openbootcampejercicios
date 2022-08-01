@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario moderno</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="imagen-bienvenida">
+        <picture class="imagen-logo">
+            <img src="../multimedia/paisaje_de_formulario.jpg" alt="imagen de paisaje" width="800" height="720">
+        </picture>
+        <h1 class="texto-inicio">Welcome</h1>
+    </div>
+    <div class="contenedor">
+            <div class="texto-formulario">
+                <h2>formulario de registro</h2>
+            </div>
+            <div class="boton">
+                <button class="boton-google">
+                    <picture class="imagen-google">
+                        <img src="../multimedia/logo-google.png" alt="logo google" width="18" height="18">
+                        <span class="texto-google">Registrarse con google</span>
+                    </picture>
+                </button>
+                <button class="boton-twiter">
+                    <picture class="imagen.twiter">
+                        <img src="../multimedia/logo_de_twitter_png_by_itamy15_d50do0c-fullview.png" alt="logo twitter" width="25" height="25">
+                    </picture>
+                    <span class="texto-twiter">twiter</span> 
+                </button>
+            </div>
+            <div class="separador">
+                <hr>
+                <span>o</span>
+                <hr>
+            </div>
+            <div class="texto-formulario1">
+                <form action="" method="post" >
+                    <div>
+                        <label for="name">
+                            <span>Name</span>
+                            <input type="name" class="form-name">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="username"> 
+                            <span>Username</span>
+                            <input type="username" class="form-user">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="email">
+                            <span>Email</span>
+                            <input id="email" name="email" />
+                        </label>
+                    </div>
+                    <div>
+                        <label for="password">
+                            <span>Password</span>
+                            <input id="password" name="password" placeholder="6+ caracteres" />
+                        </label>
+                    </div>
+                    <div class="btn-check">
+                        <label for="checkbox" class="checkbox-label">
+                            <input type="checkbox" id="checkbox">
+                            <span>Acepto las condiciones y el aviso legal</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-btn">Crear Cuenta</button>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
