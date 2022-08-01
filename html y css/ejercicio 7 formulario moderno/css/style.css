@@ -9,9 +9,10 @@
 }
 
 body {
-    background-color: #7A93AC;
+    background-color: #161717;
     display: flex;
     font-family: 'Lobster', cursive;
+    color: white;
 }
 
 /* sector de la imagen */
@@ -39,7 +40,7 @@ body {
 }
 /* sector del formulario */
 .contenedor {
-    background-color: #7A93AC;
+    background-color: #161717;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -51,7 +52,8 @@ body {
 
 /* sector de los botones */
 .texto-formulario {
-    color: #171A21;
+    color: white;
+    font-family: 'Ubuntu', sans-serif; 
 }
 .boton {
     align-self: center;
@@ -130,6 +132,13 @@ body {
 .texto-formulario1 {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
     align-items: stretch;
     gap: 30px;
 }
@@ -140,3 +149,79 @@ label {
     gap: 5px;
 }
 
+label span {
+    font-weight: 700;
+}
+
+.texto-formulario1 label input {
+    width: 80%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input {
+    width: 90%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+label input:hover {
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+label input:focus {
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+/* sector checkbox*/
+
+.btn-check {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+}
+
+.checkbox-label span {
+    font-weight: 400;
+}
+
+.submit-btn {
+    background-color: #EA4C89;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.75;
+}
+
+/* modificaciones finales */
+
+input  {
+    background-color: #212121 !important;
+}
+
+input :hover {
+    background-color: #454045;
+}
