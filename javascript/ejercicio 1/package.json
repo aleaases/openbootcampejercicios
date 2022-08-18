@@ -1,0 +1,15 @@
+{
+  "name": "primer-ejercicio",
+  "version": "1.0.0",
+  "description": "este es mi primer proyecto con node en open bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hola mundo",
+    "firt proyects"
+  ],
+  "author": "alejandro ases",
+  "license": "ISC"
+}
