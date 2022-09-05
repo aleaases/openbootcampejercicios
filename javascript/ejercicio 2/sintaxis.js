@@ -1,8 +1,8 @@
 const lista = [
-  "Gorka",
-  34,
+  "alejandro",
+  31,
   true,
-  new Date(1987, 10, 20),
+  new Date(1991, 01, 27),
   { 
       titulo: "El monje que vendió su Ferrari",
       autor: "Robin S. Sharma",
